@@ -172,3 +172,8 @@ by Prelude.")
       helm-ff-file-name-history-use-recentf t)
 
 (helm-mode 1)
+
+
+(global-set-key "\C-cc" 'org-capture)
+
+(find-file "../org/notes.org")
